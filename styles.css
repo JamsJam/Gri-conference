@@ -1,3 +1,8 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 body {
     font-family: 'Arial', sans-serif;
     margin: 0;
@@ -6,7 +11,7 @@ body {
 }
 
 header {
-    background-color: #333;
+    background-color: #1d1d1d;
     color: white;
     padding: 1rem 0;
     text-align: center;
@@ -34,11 +39,12 @@ nav ul li a {
 main {
     padding: 20px 0;
     min-height: calc(100vh - 140px); /* Adjusted to account for header and footer height */
-    background-color: #555;
+    background-color: hsl(186 22% 13% / 1);
 }
 
+
 .hero, .catalogue {
-    background-color: #555;
+    /* background-color: #555; */
     color: white;
     text-align: center;
 }
@@ -84,7 +90,7 @@ main {
     background-color: white;
     padding: 20px;
     border-radius: 8px;
-    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    box-shadow: 0 2px 5px 2px rgba(0,0,0,0.3);
     text-align: center;
 }
 
@@ -99,7 +105,7 @@ main {
 }
 
 footer {
-    background-color: #333;
+    background-color: #1d1d1d;
     color: white;
     padding: 1rem;
     text-align: center;
